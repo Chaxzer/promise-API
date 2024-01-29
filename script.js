@@ -50,12 +50,20 @@ setTimeout(()=>{document.body.appendChild(document.createElement("h3")).innerHTM
 //     // Handle the error here
 // });
 
-let promice_all = Promise.any([p1,p2,p3])
-// the first value to be resolved would be shown
-promice_all.then((value)=>{
-    document.body.appendChild(document.createElement("h2")).innerHTML = `<h2>Successfully violated all the parameters</h2> <h3> ${value} </h3>`;
-}).catch((error)=>{
-    // Handle the error here
-});
+// let promice_all = Promise.any([p1,p2,p3])
+// // the first value to be resolved would be shown
+// promice_all.then((value)=>{
+//     document.body.appendChild(document.createElement("h2")).innerHTML = `<h2>Successfully violated all the parameters</h2> <h3> ${value} </h3>`;
+// }).catch((error)=>{
+//     // Handle the error here
+// });
 
 
+// let promice_all = Promise.reject(new Error(" error it is "))
+
+// promice_all.then((value)=>{
+//     document.body.appendChild(document.createElement("h2")).innerHTML = `<h2>Successfully violated all the parameters</h2> <h3> ${value} </h3>`;
+// });
+
+
+// these are 6 static methods
